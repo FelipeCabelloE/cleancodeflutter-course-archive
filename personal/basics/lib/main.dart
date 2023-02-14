@@ -18,11 +18,10 @@ class MyApp extends StatelessWidget {
         body: Container(
             height: 200,
             width: 200,
+            color: Colors.amber,
             child: Column(children: [
               Container(color: Colors.green, child: const Text("Hello World")),
-              Container(
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(10)))
+              Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(10)))
             ])),
       ),
     );
