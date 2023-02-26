@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'widgets/question_widget.dart';
 import 'dart:math';
 
-
-
 class WidgetExampleScreen extends StatefulWidget {
   const WidgetExampleScreen({super.key});
 
@@ -50,7 +48,7 @@ class _WidgetExampleScreenState extends State<WidgetExampleScreen> {
                     return Container(
                         height: 50,
                         margin: const EdgeInsets.all(2),
-                        color: const Color.fromARGB(255, 29, 110, 42),
+                        color: const Color.fromARGB(255, 31, 125, 153),
                         child: Center(
                             child: Text(
                           '${questions[index]}',
